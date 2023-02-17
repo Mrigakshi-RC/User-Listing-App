@@ -14,7 +14,7 @@ function App() {
       console.log(user)
       if (user.name!=="" && user.age!==""){
         return [user, ...prevUsers];
-     }//keep the function outside this one
+     }
      setIsValid(false);
      return prevUsers;
     });
